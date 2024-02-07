@@ -1,0 +1,105 @@
+body {
+    /* background: linear-gradient(135deg, #191a1a, #5a012e);
+     */
+    background: linear-gradient(135deg, #191a1ae1, #430223e4);
+
+    margin: 0;
+    /* Resetting default margin */
+    height: 100vh;
+    /* Making sure the gradient covers the entire viewport */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    /* Adding white text for better visibility */
+    font-family: Arial, sans-serif;
+    /* Choosing a font */
+}
+
+.container {
+    max-width: 100vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.card,
+.b-dark {
+    padding: 50px 30px;
+    background: linear-gradient(to bottom, #c63b81, rgb(191, 20, 20));
+    border-radius: 15px;
+}
+
+.firstValue,
+.secondValue {
+    font-weight: bold;
+}
+
+.text-right01 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.btn {
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: rgb(18, 16, 16) !important;
+    font-weight: bold;
+    font-style: oblique;
+    font-family: Georgia;
+    letter-spacing: 2px;
+    background-color: rgb(162, 253, 4) !important;
+    border-color: transparent !important;
+}
+
+.text01 {
+    margin-top: 20px;
+
+}
+
+div#output-container {
+    margin-top: 20px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .card {
+        padding: 30px;
+
+
+    }
+
+    .text-right01 {
+        margin-top: 5px;
+    }
+
+    .text01 {
+        margin-top: 20px;
+
+    }
+
+    div#output-container {
+        margin-top: 20px;
+    }
+}
+
+/* Responsive styles for mobiles */
+@media (max-width: 480px) {
+    .card {
+        padding: 20px;
+    }
+
+    .text-right01 {
+        margin-top: 3px;
+    }
+
+    .text01 {
+        margin-top: 15px;
+    }
+
+    div#output-container {
+        margin-top: 15px;
+    }
+}
